@@ -3,75 +3,88 @@ div , section {
 }
 
 @media screen and (min-width:480px) and (max-width:767px){
+    main {
+        display: flex;
+        flex-direction: column;
+    }
     .div-a{
-        width:480px;
-        height:75px;
+        width:35.13909224011713vw;
+        height:12vh;
         text-align: center;
-        line-height: 75px;
+        line-height: 12vh;
         }
         .div-b{
-        width:480px;
-        height:150px;
+        width:35.13909224011713vw;
+        height:24vh;
         text-align: center;
-        line-height: 150px;
+        line-height: 24vh;
         }
         .div-c{
-        width:480px;
-        height:125px;
+        width:35.13909224011713vw;
+        height:20vh;
         text-align: center;
-        line-height: 125px;
+        line-height: 20vh;
         }
         .div-d{
-        width:480px;
-        height:125px;
+        width:35.13909224011713vw;
+        height:20vh;
         text-align: center;
-        line-height: 125px;
+        line-height: 20vh;
         }
         .sec-e{
-        width:240px;
-        height:250px;
+        width: 17.569546120058565vw;
+        height:40vh;
         text-align: center;
-        line-height: 250px;
-        float: left;
+        line-height: 40vh;
+        /* float: left; */
         }
         .sec-f{
-        width:240px;
-        height:250px;
+        width: 17.569546120058565vw;
+        height:40vh;
         text-align: center;
-        line-height: 250px;
-        float: left;
+        line-height: 40vh;
+        /* float: left; */
         }
         .sec-g{
-        width:240px;
-        height:250px;
+        width: 17.569546120058565vw;
+        height:40vh;
         text-align: center;
-        line-height: 250px;
-        float: left;
-        clear: left;
+        line-height: 40vh;
+        /* float: left; */
+        /* clear: left; */
         }
         
         .sec-h{
-        width:240px;
-        height:250px;
+        width: 17.569546120058565vw;
+        height:40vh;
         text-align: center;
-        line-height: 250px;
-        float: left;
+        line-height: 40vh;
+        /* float: left; */
         }
 .div-i{
-        width:480px;
-        height:80px;
+        width:35.13909224011713vw;
+        height:12.8vh;
         text-align: center;
-        line-height: 80px;
-        float: left;
+        line-height: 12.8vh;
+        /* float: left; */
 
         }
+          .ef {
+            display: flex;
+        }
+        .gh{
+            display: flex;
+        }
 }
+
+
+
+
 /* @media screen and (min-width:768px) and (max-width:960px){ */
     @media (min-width:768px){
         main{
-            width: 960px;
-            margin: 0 auto;
-            
+            width: 70.27818448023426vw;
+            margin: 0 auto;     
             }
          .sections-4{
         display: flex;
@@ -80,72 +93,71 @@ div , section {
             display: flex;
         }
             .div-a{
-                width:960px;
-                height:100px;
+                width:70.27818448023426vw;
+                height:16vh;
                 text-align: center;
-                line-height: 100px;
-                display: table-cell;        
+                line-height: 16vh;
                 }
             .div-b{
-                    width:200px;
-                    height:606px;
+                    width:14.641288433382138vw;
+                    height:96.96vh;
                     text-align: center;
-                    line-height: 606px;
+                    line-height: 96.96vh;
                     float: left;        
                     }
                     .div-c{
-                    width:380px;
-                    height:200px;
+                    width:27.81844802342606vw;
+                    height:32vh;
                     text-align: center;
-                    line-height: 200px;
+                    line-height: 32vh;
         
                 }
             .div-d{
-                width:380px;
-                height:200px;
+                width:27.81844802342606vw;
+                height:32vh;
                 text-align: center;
-                line-height: 200px;
+                line-height: 32vh;
                 float: right;   
         
             }
             .sec-e{
-                width:190px;
-                height:250px;
+                width:13.90922401171303vw;
+                height:40vh;
                 text-align: center;
-                line-height: 250px;
+                line-height: 40vh;
                 float: left;
                 }
                 .sec-f{
-                width:190px;
-                height:250px;
+                width:13.90922401171303vw;
+                height:40vh;
                 text-align: center;
-                line-height: 250px;
+                line-height: 40vh;
                 float: left;
                 }
                 .sec-g{
-                width:190px;
-                height:250px;
+                width:13.90922401171303vw;
+                height:40vh;
                 text-align: center;
-                line-height: 250px;
+                line-height: 40vh;
                 float: left;
                 clear: left;   
                 }
                 
                 .sec-h{
-                width:190px;
-                height:250px;
+                width:13.90922401171303vw;
+                height:40vh;
                 text-align: center;
-                line-height: 250px;
+                line-height: 40vh;
                 float: left;
         
                 }
                 .div-i{
-                width:760px;
-                height:150px;
+                width:55.63689604685212vw;
+                height:24vh;
                 text-align: center;
-                line-height: 150px;
+                line-height: 24vh;
                 display: table-cell;        
                 }
         
         }
-        
+      
