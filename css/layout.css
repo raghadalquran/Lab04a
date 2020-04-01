@@ -1,0 +1,163 @@
+div , section {
+    box-sizing: border-box;
+}
+
+@media screen and (min-width:480px) and (max-width:767px){
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+    .div-a{
+        width:35.13909224011713vw;
+        height:12vh;
+        text-align: center;
+        line-height: 12vh;
+        }
+        .div-b{
+        width:35.13909224011713vw;
+        height:24vh;
+        text-align: center;
+        line-height: 24vh;
+        }
+        .div-c{
+        width:35.13909224011713vw;
+        height:20vh;
+        text-align: center;
+        line-height: 20vh;
+        }
+        .div-d{
+        width:35.13909224011713vw;
+        height:20vh;
+        text-align: center;
+        line-height: 20vh;
+        }
+        .sec-e{
+        width: 17.569546120058565vw;
+        height:40vh;
+        text-align: center;
+        line-height: 40vh;
+        /* float: left; */
+        }
+        .sec-f{
+        width: 17.569546120058565vw;
+        height:40vh;
+        text-align: center;
+        line-height: 40vh;
+        /* float: left; */
+        }
+        .sec-g{
+        width: 17.569546120058565vw;
+        height:40vh;
+        text-align: center;
+        line-height: 40vh;
+        /* float: left; */
+        /* clear: left; */
+        }
+        
+        .sec-h{
+        width: 17.569546120058565vw;
+        height:40vh;
+        text-align: center;
+        line-height: 40vh;
+        /* float: left; */
+        }
+.div-i{
+        width:35.13909224011713vw;
+        height:12.8vh;
+        text-align: center;
+        line-height: 12.8vh;
+        /* float: left; */
+
+        }
+          .ef {
+            display: flex;
+        }
+        .gh{
+            display: flex;
+        }
+}
+
+
+
+
+/* @media screen and (min-width:768px) and (max-width:960px){ */
+    @media (min-width:768px){
+        main{
+            width: 70.27818448023426vw;
+            margin: 0 auto;     
+            }
+         .sections-4{
+        display: flex;
+        }
+        .cd{
+            display: flex;
+        }
+            .div-a{
+                width:70.27818448023426vw;
+                height:16vh;
+                text-align: center;
+                line-height: 16vh;
+                }
+            .div-b{
+                    width:14.641288433382138vw;
+                    height:96.96vh;
+                    text-align: center;
+                    line-height: 96.96vh;
+                    float: left;        
+                    }
+                    .div-c{
+                    width:27.81844802342606vw;
+                    height:32vh;
+                    text-align: center;
+                    line-height: 32vh;
+        
+                }
+            .div-d{
+                width:27.81844802342606vw;
+                height:32vh;
+                text-align: center;
+                line-height: 32vh;
+                float: right;   
+        
+            }
+            .sec-e{
+                width:13.90922401171303vw;
+                height:40vh;
+                text-align: center;
+                line-height: 40vh;
+                float: left;
+                }
+                .sec-f{
+                width:13.90922401171303vw;
+                height:40vh;
+                text-align: center;
+                line-height: 40vh;
+                float: left;
+                }
+                .sec-g{
+                width:13.90922401171303vw;
+                height:40vh;
+                text-align: center;
+                line-height: 40vh;
+                float: left;
+                clear: left;   
+                }
+                
+                .sec-h{
+                width:13.90922401171303vw;
+                height:40vh;
+                text-align: center;
+                line-height: 40vh;
+                float: left;
+        
+                }
+                .div-i{
+                width:55.63689604685212vw;
+                height:24vh;
+                text-align: center;
+                line-height: 24vh;
+                display: table-cell;        
+                }
+        
+        }
+      
